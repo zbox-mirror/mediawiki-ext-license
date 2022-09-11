@@ -1,5 +1,5 @@
 {
-  "name": "cmfstore/mediawiki-ext-license",
+  "name": "zmarket/mediawiki-ext-license",
   "type": "mediawiki-extension",
   "description": "MediaWiki license extension.",
   "license": "MIT",
@@ -23,13 +23,13 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/cmfstore/mediawiki-ext-license/issues",
-    "source": "https://github.com/cmfstore/mediawiki-ext-license"
+    "issues": "https://github.com/zbox/mediawiki-ext-license/issues",
+    "source": "https://github.com/zbox/mediawiki-ext-license"
   },
   "require": {
     "php": ">=7.2",
     "composer/installers": "^1.0.1",
-    "cmfstore/mediawiki-ext-kernel": "*"
+    "zmarket/mediawiki-ext-kernel": "*"
   },
   "autoload": {
     "classmap": [
