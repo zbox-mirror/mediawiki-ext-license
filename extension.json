@@ -2,7 +2,7 @@
   "name": "MW_EXT_License",
   "version": "1.0.0",
   "author": [
-    "[https://z17.dev/ z17 Dev]",
+    "[https://z17.dev/ z17 Development]",
     "[https://z17.cx/ z17 CX]",
     "..."
   ],
@@ -17,14 +17,14 @@
     }
   },
   "AutoloadClasses": {
-    "MediaWiki\\Extension\\Z17DEV\\MW_EXT_License": "MW_EXT_License.class.php"
+    "MediaWiki\\Extension\\Z17\\MW_EXT_License": "MW_EXT_License.class.php"
   },
   "Hooks": {
     "ParserFirstCallInit": [
-      "MediaWiki\\Extension\\Z17DEV\\MW_EXT_License::onParserFirstCallInit"
+      "MediaWiki\\Extension\\Z17\\MW_EXT_License::onParserFirstCallInit"
     ],
     "BeforePageDisplay": [
-      "MediaWiki\\Extension\\Z17DEV\\MW_EXT_License::onBeforePageDisplay"
+      "MediaWiki\\Extension\\Z17\\MW_EXT_License::onBeforePageDisplay"
     ]
   },
   "ExtensionMessagesFiles": {
